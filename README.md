@@ -7,7 +7,7 @@ Funkcja `main()` pobiera z wiersza poleceń liczbę `n` i tworzy dynamiczną `n 
 
 Państwa zadaniem będzie użycie utworzonych w ten sposób obiektów do *zaludniania* poszczególnych *kontenerów* i *adapterów*. Są one już zadeklarowane, na początku funkcji `containers()` i `adapters()`. Proszę zwrócić uwagę, że w każdym z nich przechowujemy jedynie wskaźniki na obiekty, a nie ich kopie. I właśnie na wskaźnikach będziemy operować.
 
-Po każdej zadanej operacji (w komentarzach są wprost zaznaczone miejsca, w których należy je implementować) wywołujemy makra do raportowania liczby elementów w każdym z kontenerów i liczby obiektów klasy **Slav**, rezydujących w pamięci. Efekt ich pracy wygląda jak poniżej.
+Po każdej zadanej operacji (w komentarzach są wprost zaznaczone miejsca, w których należy je implementować) wywołujemy makra do raportowania liczby elementów w każdym z kontenerów i liczby obiektów klasy **Slave**, rezydujących w pamięci. Efekt ich pracy wygląda jak poniżej.
 
 	[vector_size = 0, set_size = 0, map_size = 0, existingSlavs = 6]
 	
